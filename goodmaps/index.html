@@ -1,0 +1,67 @@
+---
+layout: goodmap
+title: Good Maps
+header: Pages
+group: navigation
+---
+{% include JB/setup %}
+	
+<div class="span8 content-left ">
+    <h2>Good Maps <small>Google Maps with Offline Map, Directions and More</small> </h2>
+    <p>Good Maps is the first(may be the only) app that bring Google Vector Maps, public transit directions and offline maps together! </p>
+	
+	<h3>Features:</h3>
+    <ul class="featured-list">
+        <li><i class="icon-star"></i>   <a href="/assets/goodmaps/slide-savemap.jpg" class="img-pop">Save maps</a> for offline use. Google offline maps finally arrives in App Store. </li>
+		<li><i class="icon-star"></i>   Detailed maps with 3D buildings, Powered By the lastest Google's Vector SDK. </li>
+		<li><i class="icon-star"></i>   Detailed <a  href="/assets/goodmaps/slide-listmode.jpg" class="img-pop">public transit directions</a>, with both <a href="/assets/goodmaps/slide-listmode.jpg" class="img-pop">list view</a> and <a href="/assets/goodmaps/slide-mapmode.jpg" class="img-pop">map view</a> mode. </li>
+		<li><i class="icon-star"></i>   Quickly switch between road, satellite, hybrid, terrain maps. </li>
+		<li><i class="icon-star"></i>   Live traffic information to avoid congestion. </li>
+		<li><i class="icon-star"></i>   <a href="/assets/goodmaps/slide-poisearch.jpg" class="img-pop">Local search</a> and business ratings. </li>
+    </ul>
+    <div class="btn-buy" style="padding-left:30px;">
+        <a class="btn btn-primary btn-app btn-xlarge" href="#"><i></i>AVAILABLE ON THE<br> <strong class="buy"> App Store</strong></a>
+    </div>
+</div>
+<div class="span4 content-right clearmarg">
+    <div class="slides">
+   	   <div class="carousel slide" id="myCarousel">
+	    <div class="carousel-inner">
+	      <div class="item active">
+	        <img alt="" src="/assets/goodmaps/slide-main.jpg">
+	      </div>
+	      <div class="item">
+	        <img alt="" src="/assets/goodmaps/slide-savemap.jpg">
+	      </div>
+	      <div class="item">
+	        <img alt="" src="/assets/goodmaps/slide-listmode.jpg">
+	      </div>
+	      <div class="item">
+	        <img alt="" src="/assets/goodmaps/slide-mapmode.jpg">
+	      </div>
+	      <div class="item">
+	        <img alt="" src="/assets/goodmaps/slide-poisearch.jpg">
+	      </div>
+	    </div> <!-- carousel inner -->
+	    <a data-slide="prev" href="#myCarousel" class="left carousel-control">‹</a>
+        <a data-slide="next" href="#myCarousel" class="right carousel-control">›</a>
+	  </div> <!-- carousel -->
+	</div> <!-- slides -->
+</div>
+
+
+<script type="text/javascript">
+	$(function(){
+		$('.carousel').carousel({  interval: 6000 });
+	});
+	
+	jQuery(document).ready(function() {
+		$("a.img-pop").fancybox({
+			'titleShow'     : false
+		});
+	});
+</script>
+<script type="text/javascript">
+    $("[rel=tooltip]").tooltip();
+    $('.dropdown-toggle').dropdown();
+</script>

@@ -30,7 +30,7 @@ html, body {
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
-  max-width: 700px; }
+  max-width: 900px; }
 
 .container-narrow > hr {
   margin: 30px 0; }
@@ -91,4 +91,108 @@ html, body {
 .tag_box a.active {
   background: #57A957;
   border: 1px solid #4c964d;
-  color: #FFF; }
+  color: #FFF; 
+}
+
+.content-right {
+    background: url("http://avriqq.net/themes/boottourism/css/../img/phone.png") no-repeat scroll center 20px / 270px 570px transparent;
+    height: 600px;
+}
+.clearmarg {
+    margin-left: 0 !important;
+}
+.span4 {
+    width: 300px;
+}
+[class*="span"] {
+    float: left;
+    margin-left: 20px;
+}
+.slides{
+    width:225px;
+    height:325px !important;
+    margin: 100px 0 0 30px;
+}
+
+.slides .item img{
+    width:100% !important;
+    height: 325px !important;
+}
+
+.slides .item{
+    height:325px !important;
+}
+
+small.help-block{
+  font-size:12px !important;  
+  color:#999;
+}
+
+
+ul.featured-list{
+    list-style-type:none;
+}
+/*ul.featured-list li {
+	background: url("http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/img/glyphicons-halflings.png") no-repeat scroll -120px 0;
+}*/
+/*
+ul.featured-list li{
+    margin-bottom: 5px;
+    background: url(/assets/goodmaps/marker.png) no-repeat 0 6px;
+    padding: 8px 10px 8px 30px;
+}
+*/
+.btn-buy{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.btn-app i{
+   background: url("/assets/goodmaps/iphone-icon.png") no-repeat 0 0;
+display: inline-block;
+height: 38px;
+width: 38px;
+float: left;
+margin-top: 4px; 
+}
+ 
+
+strong.buy{
+    font-size:19px;
+    line-height: 20px;
+}
+
+.btn-xlarge{
+    padding:10px 15px;
+    margin-right: 20px;
+}
+
+.carousel-control.left {
+	left:-75px;
+}
+
+.carousel-control.right {
+	right:-75px;
+}
+
+
+.app {
+/*    background: url("/assets/img/body-section-divider.png") repeat-x scroll center top transparent;*/
+    padding-top: 20px;
+}
+
+.app li {
+    background: none no-repeat scroll 0 0 transparent;
+    list-style: none outside none;
+    padding: 12px 26px 0 150px;
+}
+.app li .link {
+    margin-right: 12px;
+    text-align: right;
+}
+.app li p, #about p, #thanks p {
+    color: #727272;
+    font-size: 15px;
+    margin: 0;
+    padding: 8px 0;
+}
