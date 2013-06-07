@@ -12,7 +12,7 @@ pygments: true
 title : Good Apps
 tagline: iOS Ruby Development
 author :
-  name : Guangyu Zhang
+  name : GoodApps
   email : come2u@gmail.com
   github : dazuiba
   twitter : dazuiba
@@ -101,9 +101,9 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-41359792-2'
     getclicky :
-      site_id : 
+      site_id :
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
 
