@@ -95,8 +95,9 @@ html, body {
 }
 
 .content-right {
-    background: url("http://avriqq.net/themes/boottourism/css/../img/phone.png") no-repeat scroll center 20px / 270px 570px transparent;
+    background: url("http://avriqq.net/themes/boottourism/css/../img/phone.png") no-repeat no-repeat center 20px;
     height: 600px;
+    background-size: 270px 570px;
 }
 .clearmarg {
     margin-left: 0 !important;
