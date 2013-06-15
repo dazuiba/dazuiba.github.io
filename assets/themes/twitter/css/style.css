@@ -197,3 +197,9 @@ strong.buy{
     margin: 0;
     padding: 8px 0;
 }
+
+footer {
+    border-top: 1px solid #EEEEEE;
+    margin-top: 17px;
+    padding-top: 17px;
+}

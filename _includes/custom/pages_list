@@ -1,0 +1,15 @@
+<li  {% if page.title == 'Good Maps'||page.title == '爱听' %} class="active" {% endif %}>
+	<a data-toggle="dropdown" class="dropdown-toggle" href="#">Products <b class="caret"></b></a>
+	<ul class="dropdown-menu">
+         <li  {% if page.title == 'Good Maps'%} class="active" {% endif %}><a href="/goodmaps">Good Maps</a></li>
+         <li {% if page.title == '爱听'%} class="active" {% endif %}><a href="/">爱听</a></li>
+         <li class="divider"></li>
+         <li><a href="#">Others</a></li>
+       </ul>
+</li>
+<li {% if page.title == 'About' %} class="active" {% endif %}><a href="/about/">About</a></li>
+
+
+
+
+
